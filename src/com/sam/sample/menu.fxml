@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<MenuBar fx:controller="com.sam.sample.MenuController"
+         xmlns:fx="http://javafx.com/fxml"
+GridPane.rowIndex="0" GridPane.valignment="TOP" GridPane.columnSpan="2">
+<Menu text="File">
+    <MenuItem text="New"
+              onAction="#makeNew" />
+    <MenuItem text="Open"
+              onAction="#open" />
+    <MenuItem text="Save"
+              onAction="#save" />
+    <MenuItem text="Exit"
+              onAction="#exit" />
+</Menu>
+<Menu text="hello" />
+</MenuBar>
